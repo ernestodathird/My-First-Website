@@ -4,56 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My First Project </title>
+    <link rel="stylesheet" href="homeStyles.css" />
 </head>
 <body>
-    <header>        
-        <div style="background-color: aquamarine;">
-            <h1 style="text-align: center; font-size: 100px;
-                color: rgb(12, 71, 159);"> 
-                Welcome!
-            </h1>                       
+    <header id="Home2">        
+        <div>
+            <nav>
+                <ul>
+                    <li><a href='#Home1'>Home</a></li>
+                    <li><a href='#About1'>About Me</a></li>
+                    <li><a href='#Contact1'>Contact Me</a></li>
+                </ul>
+            </nav>                       
         </div>              
     </header>
 
-    <a id="#Home"> Home </a>
-
-    <div style="text-align: center;">
+    <div class="personal"
+        id="Home1">
         <img  
         src="./personal-image.jpg"
-        height="310px"
-        width="300px"                               
-        />
+        height="350px"
+        width="335px"/>
+
+        <h2 class="Name">
+            Ernesto B. Llauderes III
+        </h2>
+
+        <h3 class="phrase">
+            "Gearhead, Educator, Tech-Aspirant"
+        </h3>
     </div>
 
-    <div style="background-color: rgb(121, 195, 215);">
-        <h2 style="text-align: center; font-size: 50px;">
-        Ernesto B. Llauderes III
-        </h2>
-        <h3 style="text-align: center;font-size: 30px; font-style: italic;">
-        "Gearhead, Educator, Tech-Aspirant"
-        </h3>        
-
-        <h2 style="text-align: center; color: brown;"> 
+    <div class="aboutME"
+        id="About1">
+        <h2 id="AMtitle"> 
             About Me </h2>
-        <p style="text-align: center;font-size: 25px;">        
+        <p id="AMcontent">        
         A registered Mechanical Engineer and currently a Special Science Teacher employed
         in the Department of Education. <br/>
         A career shifter looking for an oppotunity in 
         the world of information technology.            
-        </p> 
-
+        </p>
+        <a href="#Home2" style="margin-left: 50px;"> Home </a>
     </div>
     
-
-    <nav style="text-align: center;">
-        <a href="https://www.facebook.com/Thirdyyy13" target="_blank"> Facebook </a> <br/>
-        <a href="https://www.linkedin.com/in/ernesto-iii-llauderes-24381b173/" target="_blank"> LinkedIn </a> <br/>
-        <a href="https://www.instagram.com/da_thirdyyy/?hl=en" target="_blank"> Instagram </a>             
-    </nav>
-
-    <hr/>
-
-    <a href="#Home"> Return to Top! </a>
+    <div class="ContactME"
+        id="Contact1">
+        <h2>
+            Contact ME</h2> 
+        <strong>
+            <p> Email: ernestodathird@gmail.com     |       Mobile No.: +639661721775</p>
+        </strong>     
+        <form>
+            <h3>Send me your inquiry!</h3>
+            <label for="name">Name: </label>
+            <input type="text" id="name" required />
+            <br/>
+            <label for="messages">Message: </label>
+            <textarea
+                id="messages"
+                rows="5"
+                cols="100"
+                placeholder="Enter your message here"
+                required
+            ></textarea>
+            <br/>
+            <button type="submit"> Submit </button>
+        </form>
+        <nav>
+            <li><a href="https://www.facebook.com/Thirdyyy13" target="_blank"> <img src="./fb.jpg" height="50"></a></li>
+            <li><a href="https://www.linkedin.com/in/ernesto-iii-llauderes-24381b173/" target="_blank"><img src="./LinkedIn_icon.jpg" height="50"></a></li>
+            <li><a href="https://www.instagram.com/da_thirdyyy/?hl=en" target="_blank"> <img src="./Instagram_logo_2016.jpg" height="50"></a></li>             
+        </nav>
+        
+    </div>
+    
+    <a href="#Home2" style="margin-left: 50px;"> Return to Top! </a>
     
 </body>
 </html>

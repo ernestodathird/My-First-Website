@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus&display=swap');
+
+
+body {
+    font-family: "Libre Baskerville", serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-image: url(./image1a.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(8, 11, 55);
+}
+
+header {
+    padding: 20px;
+}
+
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    padding: 10;
+    margin: 10px 0;  
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav ul li a {
+    color: rgb(8, 11, 55);
+    text-decoration: none;
+}
+
+.personal {
+    padding: 170px;
+    background: rgb(30,29,32);
+    background: linear-gradient(0deg, rgba(30,29,32,1) 20%, rgba(255,228,196,1) 50%, rgba(0,0,0,1) 88%);
+}
+
+img {
+    border-radius: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.Name {
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.phrase {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: #ffe4c4;
+}
+
+.aboutME {
+    padding: 100px 0 350px 0;
+}
+
+#AMtitle {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#AMcontent {
+    text-align: center;
+    font-size: 20px;    
+}
+
+.ContactME {
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0 20px 50px 20px;
+}
+
+.ContactME h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.ContactME strong {
+    text-align: center;
+}
+
+.ContactME nav {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;   
+}
+
+
